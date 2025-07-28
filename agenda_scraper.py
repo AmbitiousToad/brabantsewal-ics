@@ -5,7 +5,7 @@ from datetime import datetime
 import re
 
 BASE_URL = "https://www.vvvbrabantsewal.nl/agenda?page={}"
-MAX_PAGES = 20  # Stop bij pagina 20 om overbelasting te voorkomen
+MAX_PAGES = 20  # Limiteer aantal pagina's
 ICS_FILE = "index.ics"
 
 def fetch_items():
@@ -18,7 +18,7 @@ def fetch_items():
         titles = soup.find_all("h3")
 
         if not titles:
-            break
+            break  # Geen items meer → klaar
 
         for h3 in titles:
             title = h3.text.strip()
@@ -26,7 +26,6 @@ def fetch_items():
             text_blob = parent.get_text(separator="\n", strip=True)
             lines = text_blob.splitlines()
 
-            # Zoek datum en locatie op heuristiek
             datum = next((l for l in lines if re.search(r"\d{1,2} \w+", l.lower())), None)
             locatie = next((l for l in lines if l.isupper() and len(l) < 40), None)
 
@@ -38,7 +37,6 @@ def fetch_items():
     return all_items
 
 def parse_date(datum_str):
-    # Simpele parser: pakt eerste datum
     if not datum_str:
         return None
     match = re.search(r"(\d{1,2}) (\w+)", datum_str)

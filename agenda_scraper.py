@@ -6,7 +6,7 @@ import re
 
 BASE_URL = "https://www.vvvbrabantsewal.nl/agenda?page={}"
 MAX_PAGES = 20  # Limiteer aantal pagina's
-ICS_FILE = "index.ics"
+ICS_FILE = "calendar/index.ics"
 
 def fetch_items():
     all_items = []

@@ -63,7 +63,7 @@ def parse_date(datum_str):
     year = now.year
     if month_map[month.lower()] < now.month:
         year += 1
-    return date(year, month_map[month.lower()], int(day))  # 👈 meteen een date-object
+    return date(year, month_map[month.lower()], int(day))
 
 def generate_uid(title, event_date):
     seed = f"{title}-{event_date.isoformat()}"
@@ -80,8 +80,12 @@ def build_clean_description(item):
     cleaned = [line for line in lines if line.strip().lower() not in lower_exclude]
 
     desc_parts = []
+
+    # Voeg altijd link toe indien beschikbaar
     if item.get("url"):
         desc_parts.append(f"Meer informatie: {item['url']}")
+
+    # Voeg evt. extra beschrijving toe
     if cleaned:
         desc_parts.append("\n".join(cleaned))
 
@@ -99,13 +103,13 @@ def generate_ics(events):
 
         e = Event()
         e.name = item["title"]
-        e.begin = event_date  # 👈 echte date → zorgt voor VALUE=DATE
+        e.begin = event_date  # All-day: levert DTSTART;VALUE=DATE op
         e.uid = generate_uid(item["title"], event_date)
         e.location = item["locatie"] or "Brabantse Wal"
         e.description = build_clean_description(item)
 
         if item.get("url"):
-            e.url = item["url"]
+            e.url = item["url"]  # Zorgt voor aparte URL: regel in .ics
 
         e.status = "confirmed"
         e.created = now

@@ -8,7 +8,7 @@ import os
 
 BASE_URL = "https://www.vvvbrabantsewal.nl/agenda?page={}"
 MAX_PAGES = 20
-ICS_FILE = "calendar/index.ics"  # output in folder die via Cloudflare Pages gepubliceerd wordt
+ICS_FILE = "calendar/index.ics"
 
 def fetch_items():
     all_items = []
@@ -31,11 +31,17 @@ def fetch_items():
             datum = next((l for l in lines if re.search(r"\d{1,2} \w+", l.lower())), None)
             locatie = next((l for l in lines if l.isupper() and len(l) < 40), None)
 
+            # Detailpagina opzoeken
+            a_tag = h3.find("a")
+            relative_url = a_tag["href"] if a_tag and "href" in a_tag.attrs else None
+            detail_url = f"https://www.vvvbrabantsewal.nl{relative_url}" if relative_url else None
+
             all_items.append({
                 "title": title,
                 "datum": datum,
                 "locatie": locatie,
-                "description": text_blob.strip()
+                "description": text_blob.strip(),
+                "url": detail_url
             })
     return all_items
 
@@ -76,13 +82,18 @@ def generate_ics(events):
 
         e = Event()
         e.name = item["title"]
-        e.begin = parsed_date.date()  # ← gehele dag event
+        e.begin = parsed_date.date()  # gehele dag event
         e.uid = generate_uid(item["title"], parsed_date)
-        e.description = item["description"]
         e.location = item["locatie"] or "Brabantse Wal"
+        e.description = item["description"]
+
+        if item.get("url"):
+            e.url = item["url"]
+            e.description += f"\n\nMeer info: {item['url']}"
+
         e.status = "confirmed"
         e.created = now
-        e.sequence = 0  # kan later verhoogd worden bij updates
+        e.sequence = 0
 
         cal.events.add(e)
 

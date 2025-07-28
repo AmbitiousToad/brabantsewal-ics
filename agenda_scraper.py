@@ -3,10 +3,12 @@ from bs4 import BeautifulSoup
 from ics import Calendar, Event
 from datetime import datetime
 import re
+import hashlib
+import os
 
 BASE_URL = "https://www.vvvbrabantsewal.nl/agenda?page={}"
-MAX_PAGES = 20  # Limiteer aantal pagina's
-ICS_FILE = "calendar/index.ics"
+MAX_PAGES = 20
+ICS_FILE = "calendar/index.ics"  # output in folder die via Cloudflare Pages gepubliceerd wordt
 
 def fetch_items():
     all_items = []
@@ -18,7 +20,7 @@ def fetch_items():
         titles = soup.find_all("h3")
 
         if not titles:
-            break  # Geen items meer → klaar
+            break
 
         for h3 in titles:
             title = h3.text.strip()
@@ -33,6 +35,7 @@ def fetch_items():
                 "title": title,
                 "datum": datum,
                 "locatie": locatie,
+                "description": text_blob.strip()
             })
     return all_items
 
@@ -56,20 +59,36 @@ def parse_date(datum_str):
         year += 1
     return datetime(year, month_map[month.lower()], int(day))
 
+def generate_uid(title, date):
+    seed = f"{title}-{date.isoformat()}"
+    uid_hash = hashlib.md5(seed.encode()).hexdigest()
+    return f"{uid_hash}@brabantsewal.ics"
+
 def generate_ics(events):
     cal = Calendar()
+    now = datetime.utcnow()
+    os.makedirs(os.path.dirname(ICS_FILE), exist_ok=True)
+
     for item in events:
-        date = parse_date(item["datum"])
-        if not date:
+        parsed_date = parse_date(item["datum"])
+        if not parsed_date:
             continue
+
         e = Event()
         e.name = item["title"]
-        e.begin = date
+        e.begin = parsed_date.date()  # ← gehele dag event
+        e.uid = generate_uid(item["title"], parsed_date)
+        e.description = item["description"]
         e.location = item["locatie"] or "Brabantse Wal"
+        e.status = "confirmed"
+        e.created = now
+        e.sequence = 0  # kan later verhoogd worden bij updates
+
         cal.events.add(e)
+
     with open(ICS_FILE, "w", encoding="utf-8") as f:
         f.writelines(cal)
 
 if __name__ == "__main__":
-    items = fetch_items()
-    generate_ics(items)
+    events = fetch_items()
+    generate_ics(events)

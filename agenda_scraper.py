@@ -40,7 +40,7 @@ def fetch_items():
                 "title": title,
                 "datum": datum,
                 "locatie": locatie,
-                "description": text_blob.strip(),
+                "raw_text": text_blob.strip(),
                 "url": detail_url
             })
     return all_items
@@ -70,6 +70,25 @@ def generate_uid(title, date):
     uid_hash = hashlib.md5(seed.encode()).hexdigest()
     return f"{uid_hash}@brabantsewal.ics"
 
+def build_clean_description(item):
+    """Verwijdert dubbele titel/datum/locatie en voegt URL toe."""
+    lines = item["raw_text"].splitlines()
+    lower_exclude = {
+        (item["title"] or "").lower(),
+        (item.get("datum") or "").lower(),
+        (item.get("locatie") or "").lower()
+    }
+
+    cleaned = [line for line in lines if line.strip().lower() not in lower_exclude]
+
+    desc_parts = []
+    if item.get("url"):
+        desc_parts.append(f"Meer informatie: {item['url']}")
+    if cleaned:
+        desc_parts.append("\n".join(cleaned))
+
+    return "\n\n".join(desc_parts).strip()
+
 def generate_ics(events):
     cal = Calendar()
     now = datetime.utcnow()
@@ -82,14 +101,13 @@ def generate_ics(events):
 
         e = Event()
         e.name = item["title"]
-        e.begin = parsed_date.date()  # ✅ maakt het een all-day event
+        e.begin = parsed_date.date()  # All-day event
         e.uid = generate_uid(item["title"], parsed_date)
         e.location = item["locatie"] or "Brabantse Wal"
-        e.description = item["description"]
+        e.description = build_clean_description(item)
 
         if item.get("url"):
             e.url = item["url"]
-            e.description += f"\n\nMeer info: {item['url']}"
 
         e.status = "confirmed"
         e.created = now

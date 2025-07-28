@@ -1,6 +1,6 @@
+from icalendar import Calendar, Event
 import requests
 from bs4 import BeautifulSoup
-from ics import Calendar, Event
 from datetime import datetime, date
 import re
 import hashlib
@@ -18,24 +18,18 @@ def fetch_items():
         r = requests.get(url)
         soup = BeautifulSoup(r.text, "html.parser")
         titles = soup.find_all("h3")
-
         if not titles:
             break
-
         for h3 in titles:
             title = h3.text.strip()
             parent = h3.parent
             text_blob = parent.get_text(separator="\n", strip=True)
             lines = text_blob.splitlines()
-
             datum = next((l for l in lines if re.search(r"\d{1,2} \w+", l.lower())), None)
             locatie = next((l for l in lines if l.isupper() and len(l) < 40), None)
-
-            # Detailpagina opzoeken
             a_tag = h3.find("a")
             relative_url = a_tag["href"] if a_tag and "href" in a_tag.attrs else None
             detail_url = f"https://www.vvvbrabantsewal.nl{relative_url}" if relative_url else None
-
             all_items.append({
                 "title": title,
                 "datum": datum,
@@ -70,55 +64,37 @@ def generate_uid(title, event_date):
     uid_hash = hashlib.md5(seed.encode()).hexdigest()
     return f"{uid_hash}@brabantsewal.ics"
 
-def build_clean_description(item):
-    lines = item["raw_text"].splitlines()
-    lower_exclude = {
-        (item["title"] or "").lower(),
-        (item.get("datum") or "").lower(),
-        (item.get("locatie") or "").lower()
-    }
-    cleaned = [line for line in lines if line.strip().lower() not in lower_exclude]
-
-    desc_parts = []
-
-    # Voeg altijd link toe indien beschikbaar
+def build_description(item):
+    desc = ""
     if item.get("url"):
-        desc_parts.append(f"Meer informatie: {item['url']}")
-
-    # Voeg evt. extra beschrijving toe
-    if cleaned:
-        desc_parts.append("\n".join(cleaned))
-
-    return "\n\n".join(desc_parts).strip()
+        desc += f"Meer informatie: {item['url']}\n"
+    if item.get("raw_text"):
+        desc += item["raw_text"]
+    return desc.strip()
 
 def generate_ics(events):
     cal = Calendar()
-    now = datetime.utcnow()
+    cal.add("prodid", "-//Brabantse Wal Agenda//NL")
+    cal.add("version", "2.0")
     os.makedirs(os.path.dirname(ICS_FILE), exist_ok=True)
 
     for item in events:
         event_date = parse_date(item["datum"])
         if not event_date:
             continue
-
-        e = Event()
-        e.name = item["title"]
-        e.begin = event_date  # All-day: levert DTSTART;VALUE=DATE op
-        e.uid = generate_uid(item["title"], event_date)
-        e.location = item["locatie"] or "Brabantse Wal"
-        e.description = build_clean_description(item)
-
+        event = Event()
+        event.add("summary", item["title"])
+        event.add("uid", generate_uid(item["title"], event_date))
+        event.add("location", item["locatie"] or "Brabantse Wal")
+        event.add("dtstart", event_date)  # ✅ dit zorgt voor VALUE=DATE
+        event.add("status", "CONFIRMED")
+        event.add("description", build_description(item))
         if item.get("url"):
-            e.url = item["url"]  # Zorgt voor aparte URL: regel in .ics
+            event.add("url", item["url"])
+        cal.add_component(event)
 
-        e.status = "confirmed"
-        e.created = now
-        e.sequence = 0
-
-        cal.events.add(e)
-
-    with open(ICS_FILE, "w", encoding="utf-8") as f:
-        f.writelines(cal)
+    with open(ICS_FILE, "wb") as f:
+        f.write(cal.to_ical())
 
 if __name__ == "__main__":
     events = fetch_items()

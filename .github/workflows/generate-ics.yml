@@ -2,14 +2,19 @@ name: Genereer ICS Kalender
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Dagelijks om 06:00 UTC (08:00 NL tijd)
+    - cron: '0 6 * * *'  # Dagelijks om 06:00 UTC = 08:00 NL tijd
   workflow_dispatch:
+
+permissions:
+  contents: write  # Nodig voor commit naar repo
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Installeer Python
         uses: actions/setup-python@v5
@@ -24,8 +29,8 @@ jobs:
 
       - name: Commit en push ICS
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@users.noreply.github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
           git add index.ics
-          git commit -m "Automatisch gegenereerde ICS"
+          git commit -m "Automatisch gegenereerde ICS" || echo "Geen wijzigingen om te committen"
           git push

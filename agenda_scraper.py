@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
-from datetime import datetime
+from datetime import datetime, date
 import re
 import hashlib
 import os
@@ -63,22 +63,20 @@ def parse_date(datum_str):
     year = now.year
     if month_map[month.lower()] < now.month:
         year += 1
-    return datetime(year, month_map[month.lower()], int(day))
+    return date(year, month_map[month.lower()], int(day))  # 👈 meteen een date-object
 
-def generate_uid(title, date):
-    seed = f"{title}-{date.isoformat()}"
+def generate_uid(title, event_date):
+    seed = f"{title}-{event_date.isoformat()}"
     uid_hash = hashlib.md5(seed.encode()).hexdigest()
     return f"{uid_hash}@brabantsewal.ics"
 
 def build_clean_description(item):
-    """Verwijdert dubbele titel/datum/locatie en voegt URL toe."""
     lines = item["raw_text"].splitlines()
     lower_exclude = {
         (item["title"] or "").lower(),
         (item.get("datum") or "").lower(),
         (item.get("locatie") or "").lower()
     }
-
     cleaned = [line for line in lines if line.strip().lower() not in lower_exclude]
 
     desc_parts = []
@@ -95,14 +93,14 @@ def generate_ics(events):
     os.makedirs(os.path.dirname(ICS_FILE), exist_ok=True)
 
     for item in events:
-        parsed_date = parse_date(item["datum"])
-        if not parsed_date:
+        event_date = parse_date(item["datum"])
+        if not event_date:
             continue
 
         e = Event()
         e.name = item["title"]
-        e.begin = parsed_date.date()  # All-day event
-        e.uid = generate_uid(item["title"], parsed_date)
+        e.begin = event_date  # 👈 echte date → zorgt voor VALUE=DATE
+        e.uid = generate_uid(item["title"], event_date)
         e.location = item["locatie"] or "Brabantse Wal"
         e.description = build_clean_description(item)
 

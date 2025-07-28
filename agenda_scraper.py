@@ -65,12 +65,12 @@ def generate_uid(title, event_date):
     return f"{uid_hash}@brabantsewal.ics"
 
 def build_description(item):
-    desc = ""
+    desc_parts = []
     if item.get("url"):
-        desc += f"Meer informatie: {item['url']}\n"
+        desc_parts.append(f"Meer informatie: {item['url']}")
     if item.get("raw_text"):
-        desc += item["raw_text"]
-    return desc.strip()
+        desc_parts.append(item["raw_text"])
+    return "\n\n".join(desc_parts).strip()
 
 def generate_ics(events):
     cal = Calendar()
@@ -82,15 +82,17 @@ def generate_ics(events):
         event_date = parse_date(item["datum"])
         if not event_date:
             continue
+
         event = Event()
         event.add("summary", item["title"])
         event.add("uid", generate_uid(item["title"], event_date))
         event.add("location", item["locatie"] or "Brabantse Wal")
-        event.add("dtstart", event_date)  # ✅ dit zorgt voor VALUE=DATE
+        event.add("dtstart", event_date)  # ✅ All-day event
         event.add("status", "CONFIRMED")
         event.add("description", build_description(item))
         if item.get("url"):
-            event.add("url", item["url"])
+            event.add("url", item["url"])  # ✅ URL regel voor klikbare knop
+
         cal.add_component(event)
 
     with open(ICS_FILE, "wb") as f:

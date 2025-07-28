@@ -82,7 +82,7 @@ def generate_ics(events):
 
         e = Event()
         e.name = item["title"]
-        e.begin = parsed_date.date()  # gehele dag event
+        e.begin = parsed_date.date()  # ✅ maakt het een all-day event
         e.uid = generate_uid(item["title"], parsed_date)
         e.location = item["locatie"] or "Brabantse Wal"
         e.description = item["description"]

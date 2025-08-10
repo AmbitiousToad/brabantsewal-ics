@@ -2,123 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Brabantse Wal Agenda//NL
 BEGIN:VEVENT
-SUMMARY:Rondleiding Verborgen Vesting
-DTSTART;VALUE=DATE:20250809
-UID:78c52f4574a43f203acfe5263f7c5fd5@brabantsewal.ics
-DESCRIPTION:Rondleiding Verborgen Vesting\nRondleiding Verborgen Vesting\n
- 9 augustus\, 17 augustus en nog 8 dagen\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wandelconcerten Sint Gertrudiskerk
-DTSTART;VALUE=DATE:20250809
-UID:946870f07f3aa891ea38641dba3df7db@brabantsewal.ics
-DESCRIPTION:Wandelconcerten Sint Gertrudiskerk\nWandelconcerten Sint Gertr
- udiskerk\n9 augustus\, 16 augustus en nog 2 dagen\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stadswandeling Steenbergen
-DTSTART;VALUE=DATE:20250809
-UID:ef7961ad012640853e5e110ae122f887@brabantsewal.ics
-DESCRIPTION:Stadswandeling Steenbergen\nStadswandeling Steenbergen\n9 augu
- stus\, 13 september en 11 oktober\nSTEENBERGEN
-LOCATION:STEENBERGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Roofvogelshows
-DTSTART;VALUE=DATE:20250809
-UID:2deaa7c2359adb1f1f14b4368a54df52@brabantsewal.ics
-DESCRIPTION:Roofvogelshows\nRoofvogelshows\n9 augustus\, 13 augustus\nBERG
- EN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:High Hi
-DTSTART;VALUE=DATE:20250809
-UID:27ee6153bb38b383e847675fd947675f@brabantsewal.ics
-DESCRIPTION:High Hi\nHigh Hi\nzaterdag 9 augustus\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Torenkamer Gradatus
-DTSTART;VALUE=DATE:20251026
-UID:98929a4c3d41b1a5f21e3af6a0210fa2@brabantsewal.ics
-DESCRIPTION:Torenkamer Gradatus\nTorenkamer Gradatus\nt/m 26 oktober\nBerg
- en op Zoom
-LOCATION:Brabantse Wal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stadswandeling Bergen op Zoom
-DTSTART;VALUE=DATE:20251025
-UID:52b1beb0a1c8ab87cec2cc6c5b0e5972@brabantsewal.ics
-DESCRIPTION:Stadswandeling Bergen op Zoom\nStadswandeling Bergen op Zoom\n
- t/m 25 oktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Expositie Emaille kunst
-DTSTART;VALUE=DATE:20250809
-UID:58c73ac00dcec5e559cd9ba4f5e51e3b@brabantsewal.ics
-DESCRIPTION:Expositie Emaille kunst\nExpositie Emaille kunst\n9 augustus\,
-  15 augustus en nog 6 dagen\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Expo Joop Mijsbergen - Kunst Kleur Passie
-DTSTART;VALUE=DATE:20250809
-UID:70f0996ff5f1432c94be291f13eab6fb@brabantsewal.ics
-DESCRIPTION:Expo Joop Mijsbergen - Kunst Kleur Passie\nExpo Joop Mijsberge
- n - Kunst Kleur Passie\n9 augustus\, 10 augustus en nog 6 dagen\nBERGEN OP
-  ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bezoek St. Gertrudiskerk en beklimming Peperbus
-DTSTART;VALUE=DATE:20251026
-UID:999e02183ec8fb38bf43af6dbcab4a0a@brabantsewal.ics
-DESCRIPTION:Bezoek St. Gertrudiskerk en beklimming Peperbus\nBezoek St. Ge
- rtrudiskerk en beklimming Peperbus\nt/m 26 oktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bezoek Synagoge\, Stadhuis & Gevangenpoort
-DTSTART;VALUE=DATE:20251026
-UID:970c3ece17d70b47b8a25e32e4b21bee@brabantsewal.ics
-DESCRIPTION:Bezoek Synagoge\, Stadhuis & Gevangenpoort\nBezoek Synagoge\, 
- Stadhuis & Gevangenpoort\nt/m 26 oktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Waterpoort Rondvaarten
-DTSTART;VALUE=DATE:20251026
-UID:03a263a9738326ead0e4957af7b3763b@brabantsewal.ics
-DESCRIPTION:Waterpoort Rondvaarten\nWaterpoort Rondvaarten\nt/m 26 oktober
- \nDINTELOORD
-LOCATION:DINTELOORD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kleine Tour Steenbergen
-DTSTART;VALUE=DATE:20250809
-UID:e75a0de71fd2adb9be109758d912e92b@brabantsewal.ics
-DESCRIPTION:Kleine Tour Steenbergen\nKleine Tour Steenbergen\nzaterdag 9 a
- ugustus\nSTEENBERGEN
-LOCATION:STEENBERGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Gezinswandeling Dintelse Gorzen
 DTSTART;VALUE=DATE:20250810
 UID:952c730f11bebd610820d78a9395d8cd@brabantsewal.ics
@@ -137,12 +20,67 @@ LOCATION:WOUWSE PLANTAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bezoek Synagoge\, Stadhuis & Gevangenpoort
+DTSTART;VALUE=DATE:20251026
+UID:970c3ece17d70b47b8a25e32e4b21bee@brabantsewal.ics
+DESCRIPTION:Bezoek Synagoge\, Stadhuis & Gevangenpoort\nBezoek Synagoge\, 
+ Stadhuis & Gevangenpoort\nt/m 26 oktober\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bezoek St. Gertrudiskerk en beklimming Peperbus
+DTSTART;VALUE=DATE:20251026
+UID:999e02183ec8fb38bf43af6dbcab4a0a@brabantsewal.ics
+DESCRIPTION:Bezoek St. Gertrudiskerk en beklimming Peperbus\nBezoek St. Ge
+ rtrudiskerk en beklimming Peperbus\nt/m 26 oktober\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Waterpoort Rondvaarten
+DTSTART;VALUE=DATE:20251026
+UID:03a263a9738326ead0e4957af7b3763b@brabantsewal.ics
+DESCRIPTION:Waterpoort Rondvaarten\nWaterpoort Rondvaarten\nt/m 26 oktober
+ \nDINTELOORD
+LOCATION:DINTELOORD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expo Joop Mijsbergen - Kunst Kleur Passie
+DTSTART;VALUE=DATE:20250810
+UID:f8638d19d89ff53ceb7d4f4ac6f40935@brabantsewal.ics
+DESCRIPTION:Expo Joop Mijsbergen - Kunst Kleur Passie\nExpo Joop Mijsberge
+ n - Kunst Kleur Passie\n10 augustus\, 12 augustus en nog 5 dagen\nBERGEN O
+ P ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Torenkamer Gradatus
+DTSTART;VALUE=DATE:20251026
+UID:98929a4c3d41b1a5f21e3af6a0210fa2@brabantsewal.ics
+DESCRIPTION:Torenkamer Gradatus\nTorenkamer Gradatus\nt/m 26 oktober\nBerg
+ en op Zoom
+LOCATION:Brabantse Wal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rondleiding Landgoed Wouwse Plantage
 DTSTART;VALUE=DATE:20250813
 UID:780c60a6aef5f8931f34436d0f2c7b47@brabantsewal.ics
 DESCRIPTION:Rondleiding Landgoed Wouwse Plantage\nRondleiding Landgoed Wou
  wse Plantage\nwoensdag 13 augustus\nWOUWSE PLANTAGE
 LOCATION:WOUWSE PLANTAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Roofvogelshows
+DTSTART;VALUE=DATE:20250813
+UID:ac895e286f1f60a36c3fc0b97238dc14@brabantsewal.ics
+DESCRIPTION:Roofvogelshows\nRoofvogelshows\nwoensdag 13 augustus\nBERGEN O
+ P ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -165,12 +103,21 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brabantse Waltocht
+SUMMARY:Expositie Emaille kunst
+DTSTART;VALUE=DATE:20250815
+UID:f99a69a637c031e649b3c38154f5a4bd@brabantsewal.ics
+DESCRIPTION:Expositie Emaille kunst\nExpositie Emaille kunst\n15 augustus\
+ , 16 augustus en nog 5 dagen\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wandelconcerten Sint Gertrudiskerk
 DTSTART;VALUE=DATE:20250816
-UID:0c3252b57acc1562979f3552feaa9695@brabantsewal.ics
-DESCRIPTION:Brabantse Waltocht\nBrabantse Waltocht\nzaterdag 16 augustus\n
- HOOGERHEIDE
-LOCATION:HOOGERHEIDE
+UID:e71e41b99fc351da0f54a6c153d6ec21@brabantsewal.ics
+DESCRIPTION:Wandelconcerten Sint Gertrudiskerk\nWandelconcerten Sint Gertr
+ udiskerk\n16 augustus\, 23 augustus en 30 augustus\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -183,11 +130,47 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Brabantse Waltocht
+DTSTART;VALUE=DATE:20250816
+UID:0c3252b57acc1562979f3552feaa9695@brabantsewal.ics
+DESCRIPTION:Brabantse Waltocht\nBrabantse Waltocht\nzaterdag 16 augustus\n
+ HOOGERHEIDE
+LOCATION:HOOGERHEIDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stadswandeling Bergen op Zoom
+DTSTART;VALUE=DATE:20250816
+UID:dbde3d5f62bccfcde2daa731ae995250@brabantsewal.ics
+DESCRIPTION:Stadswandeling Bergen op Zoom\nStadswandeling Bergen op Zoom\n
+ 16 augustus\, 23 augustus en nog 9 dagen\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rondleiding Fort de Roovere
+DTSTART;VALUE=DATE:20250817
+UID:5c64f4ae5a772de10ab0cd767f0ad1e5@brabantsewal.ics
+DESCRIPTION:Rondleiding Fort de Roovere\nRondleiding Fort de Roovere\n17 a
+ ugustus\, 12 oktober en 26 oktober\nHALSTEREN
+LOCATION:HALSTEREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Spelen bij de Peperbus
 DTSTART;VALUE=DATE:20250817
 UID:ac5b7f3c3933c76eff42ca32b15ed2bd@brabantsewal.ics
 DESCRIPTION:Spelen bij de Peperbus\nSpelen bij de Peperbus\nzondag 17 augu
  stus\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rondleiding Verborgen Vesting
+DTSTART;VALUE=DATE:20250817
+UID:c8f9c1a207f8b2111735e8a362e7ec26@brabantsewal.ics
+DESCRIPTION:Rondleiding Verborgen Vesting\nRondleiding Verborgen Vesting\n
+ 17 augustus\, 23 augustus en nog 7 dagen\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -198,15 +181,6 @@ UID:96812543b580a62aad6d222699071ce2@brabantsewal.ics
 DESCRIPTION:Jaarmarkt Woensdrecht\nJaarmarkt Woensdrecht\nzondag 17 august
  us\nWOENSDRECHT
 LOCATION:WOENSDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rondleiding Fort de Roovere
-DTSTART;VALUE=DATE:20250817
-UID:5c64f4ae5a772de10ab0cd767f0ad1e5@brabantsewal.ics
-DESCRIPTION:Rondleiding Fort de Roovere\nRondleiding Fort de Roovere\n17 a
- ugustus\, 12 oktober en 26 oktober\nHALSTEREN
-LOCATION:HALSTEREN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -300,30 +274,12 @@ LOCATION:STEENBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Trekkertrek in Ossendrecht
+SUMMARY:Rommelmarkt Bommesee
 DTSTART;VALUE=DATE:20250831
-UID:87825161ab7cd267ed83286bbc2df916@brabantsewal.ics
-DESCRIPTION:Trekkertrek in Ossendrecht\nTrekkertrek in Ossendrecht\nzondag
-  31 augustus\nOSSENDRECHT
-LOCATION:OSSENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Publiekswandeling Landgoed Mattemburgh
-DTSTART;VALUE=DATE:20250831
-UID:1c9b04d24cbc3c6d7077198d8974e050@brabantsewal.ics
-DESCRIPTION:Publiekswandeling Landgoed Mattemburgh\nPubliekswandeling Land
- goed Mattemburgh\n31 augustus\, 28 september\nHOOGERHEIDE
-LOCATION:HOOGERHEIDE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Montmartre aan de Haven
-DTSTART;VALUE=DATE:20250831
-UID:296e7dc401cda8b867e686f12a3e9219@brabantsewal.ics
-DESCRIPTION:Montmartre aan de Haven\nMontmartre aan de Haven\nzondag 31 au
- gustus\nDINTELOORD
-LOCATION:DINTELOORD
+UID:084941e5468e8e9db10283d9466c572e@brabantsewal.ics
+DESCRIPTION:Rommelmarkt Bommesee\nRommelmarkt Bommesee\nzondag 31 augustus
+ \nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -336,12 +292,30 @@ LOCATION:HUIJBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rommelmarkt Bommesee
+SUMMARY:Trekkertrek in Ossendrecht
 DTSTART;VALUE=DATE:20250831
-UID:084941e5468e8e9db10283d9466c572e@brabantsewal.ics
-DESCRIPTION:Rommelmarkt Bommesee\nRommelmarkt Bommesee\nzondag 31 augustus
- \nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
+UID:87825161ab7cd267ed83286bbc2df916@brabantsewal.ics
+DESCRIPTION:Trekkertrek in Ossendrecht\nTrekkertrek in Ossendrecht\nzondag
+  31 augustus\nOSSENDRECHT
+LOCATION:OSSENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Montmartre aan de Haven
+DTSTART;VALUE=DATE:20250831
+UID:296e7dc401cda8b867e686f12a3e9219@brabantsewal.ics
+DESCRIPTION:Montmartre aan de Haven\nMontmartre aan de Haven\nzondag 31 au
+ gustus\nDINTELOORD
+LOCATION:DINTELOORD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Publiekswandeling Landgoed Mattemburgh
+DTSTART;VALUE=DATE:20250831
+UID:1c9b04d24cbc3c6d7077198d8974e050@brabantsewal.ics
+DESCRIPTION:Publiekswandeling Landgoed Mattemburgh\nPubliekswandeling Land
+ goed Mattemburgh\n31 augustus\, 28 september\nHOOGERHEIDE
+LOCATION:HOOGERHEIDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -373,10 +347,10 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Amerikanendag Café Die Twee
+SUMMARY:Excursie rond het Markiezaat
 DTSTART;VALUE=DATE:20250907
-UID:dca671d50bb961fadaefdc9572790113@brabantsewal.ics
-DESCRIPTION:Amerikanendag Café Die Twee\nAmerikanendag Café Die Twee\nzo
+UID:fbb9af8ba6a7829e1bc4df82cab662f7@brabantsewal.ics
+DESCRIPTION:Excursie rond het Markiezaat\nExcursie rond het Markiezaat\nzo
  ndag 7 september\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
@@ -391,21 +365,30 @@ LOCATION:OSSENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Excursie rond het Markiezaat
+SUMMARY:Amerikanendag Café Die Twee
 DTSTART;VALUE=DATE:20250907
-UID:fbb9af8ba6a7829e1bc4df82cab662f7@brabantsewal.ics
-DESCRIPTION:Excursie rond het Markiezaat\nExcursie rond het Markiezaat\nzo
+UID:dca671d50bb961fadaefdc9572790113@brabantsewal.ics
+DESCRIPTION:Amerikanendag Café Die Twee\nAmerikanendag Café Die Twee\nzo
  ndag 7 september\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PopMonument
+SUMMARY:Open Monumentendag Steenbergen
 DTSTART;VALUE=DATE:20250913
-UID:71fc5570cb45caeade47b11c93fe7cc3@brabantsewal.ics
-DESCRIPTION:PopMonument\nPopMonument\nzaterdag 13 september\nBERGEN OP ZOO
- M
-LOCATION:BERGEN OP ZOOM
+UID:58b0d2b746186432095accd4f8ce9c52@brabantsewal.ics
+DESCRIPTION:Open Monumentendag Steenbergen\nOpen Monumentendag Steenbergen
+ \nzaterdag 13 september\nSTEENBERGEN
+LOCATION:STEENBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stadswandeling Steenbergen
+DTSTART;VALUE=DATE:20250913
+UID:9f21afcf2f58269366d785c7ce2ec81a@brabantsewal.ics
+DESCRIPTION:Stadswandeling Steenbergen\nStadswandeling Steenbergen\n13 sep
+ tember\, 11 oktober\nSTEENBERGEN
+LOCATION:STEENBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -415,15 +398,6 @@ UID:edad2e3b5e246d1644e247f485e065da@brabantsewal.ics
 DESCRIPTION:Iets met Boeren\nIets met Boeren\nzaterdag 13 september\nOSSEN
  DRECHT
 LOCATION:OSSENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jeugd Dikke Banden Race
-DTSTART;VALUE=DATE:20250913
-UID:103392f43fe748494d069eea99aa0a82@brabantsewal.ics
-DESCRIPTION:Jeugd Dikke Banden Race\nJeugd Dikke Banden Race\nzaterdag 13 
- september\nSTEENBERGEN
-LOCATION:STEENBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -445,11 +419,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Open Monumentendag Steenbergen
+SUMMARY:PopMonument
 DTSTART;VALUE=DATE:20250913
-UID:58b0d2b746186432095accd4f8ce9c52@brabantsewal.ics
-DESCRIPTION:Open Monumentendag Steenbergen\nOpen Monumentendag Steenbergen
- \nzaterdag 13 september\nSTEENBERGEN
+UID:71fc5570cb45caeade47b11c93fe7cc3@brabantsewal.ics
+DESCRIPTION:PopMonument\nPopMonument\nzaterdag 13 september\nBERGEN OP ZOO
+ M
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeugd Dikke Banden Race
+DTSTART;VALUE=DATE:20250913
+UID:103392f43fe748494d069eea99aa0a82@brabantsewal.ics
+DESCRIPTION:Jeugd Dikke Banden Race\nJeugd Dikke Banden Race\nzaterdag 13 
+ september\nSTEENBERGEN
 LOCATION:STEENBERGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -463,15 +446,6 @@ LOCATION:OSSENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:T-Sessie
-DTSTART;VALUE=DATE:20250914
-UID:47d33d772b49c9b8d74bba45a21e9ceb@brabantsewal.ics
-DESCRIPTION:T-Sessie\nT-Sessie\n14 september\, 12 oktober en 30 november\n
- BERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Excursie Kortenhoeff
 DTSTART;VALUE=DATE:20250914
 UID:1bd8f13dfc73431314c3882d000ce357@brabantsewal.ics
@@ -481,21 +455,30 @@ LOCATION:HOOGERHEIDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Zilveren Pijlverschieting
-DTSTART;VALUE=DATE:20250914
-UID:91d8d4c5e9f3a5b09e1a261155ce86b5@brabantsewal.ics
-DESCRIPTION:Zilveren Pijlverschieting\nZilveren Pijlverschieting\nzondag 1
- 4 september\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Woensdrechtse Boerendag
 DTSTART;VALUE=DATE:20250914
 UID:416e0413273920fb3abc822ef6a35457@brabantsewal.ics
 DESCRIPTION:Woensdrechtse Boerendag\nWoensdrechtse Boerendag\nzondag 14 se
  ptember\nHoogerheide
 LOCATION:Brabantse Wal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:T-Sessie
+DTSTART;VALUE=DATE:20250914
+UID:47d33d772b49c9b8d74bba45a21e9ceb@brabantsewal.ics
+DESCRIPTION:T-Sessie\nT-Sessie\n14 september\, 12 oktober en 30 november\n
+ BERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zilveren Pijlverschieting
+DTSTART;VALUE=DATE:20250914
+UID:91d8d4c5e9f3a5b09e1a261155ce86b5@brabantsewal.ics
+DESCRIPTION:Zilveren Pijlverschieting\nZilveren Pijlverschieting\nzondag 1
+ 4 september\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -518,15 +501,6 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pink Project
-DTSTART;VALUE=DATE:20250920
-UID:116958352cab57d0d421f8841b2ae034@brabantsewal.ics
-DESCRIPTION:Pink Project\nPink Project\nzaterdag 20 september\nBERGEN OP Z
- OOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bergs Bierfestival
 DTSTART;VALUE=DATE:20250920
 UID:88824b36b891e6b80f669357a8134b00@brabantsewal.ics
@@ -545,6 +519,24 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pink Project
+DTSTART;VALUE=DATE:20250920
+UID:116958352cab57d0d421f8841b2ae034@brabantsewal.ics
+DESCRIPTION:Pink Project\nPink Project\nzaterdag 20 september\nBERGEN OP Z
+ OOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ontdek de waterrijke Dintelse Gorzen
+DTSTART;VALUE=DATE:20250921
+UID:7445a5be88053cce45f1d370be3cd97e@brabantsewal.ics
+DESCRIPTION:Ontdek de waterrijke Dintelse Gorzen\nOntdek de waterrijke Din
+ telse Gorzen\nzondag 21 september\nDINTELOORD
+LOCATION:DINTELOORD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cultuur in het Kerkje
 DTSTART;VALUE=DATE:20250921
 UID:ab76d223518c6baeeddc515a3034bbd2@brabantsewal.ics
@@ -560,15 +552,6 @@ UID:5b23ad48946abb0a89eae5dd4ecebcfa@brabantsewal.ics
 DESCRIPTION:Zachtop Lachen\nZachtop Lachen\nzondag 21 september\nBERGEN OP
   ZOOM
 LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ontdek de waterrijke Dintelse Gorzen
-DTSTART;VALUE=DATE:20250921
-UID:7445a5be88053cce45f1d370be3cd97e@brabantsewal.ics
-DESCRIPTION:Ontdek de waterrijke Dintelse Gorzen\nOntdek de waterrijke Din
- telse Gorzen\nzondag 21 september\nDINTELOORD
-LOCATION:DINTELOORD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -617,11 +600,29 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kaz Hawkins
+DTSTART;VALUE=DATE:20250927
+UID:2dd1ce6bfc38f0061f0c6ec2203a963b@brabantsewal.ics
+DESCRIPTION:Kaz Hawkins\nKaz Hawkins\nzaterdag 27 september\nBERGEN OP ZOO
+ M
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Plukdag
 DTSTART;VALUE=DATE:20250927
 UID:6c3696e34b09b686005fa22cccc7293e@brabantsewal.ics
 DESCRIPTION:Plukdag\nPlukdag\nzaterdag 27 september\nDINTELOORD
 LOCATION:DINTELOORD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dance Boulevard
+DTSTART;VALUE=DATE:20250927
+UID:66e13c9d18edbb4c1c04dec737a9378b@brabantsewal.ics
+DESCRIPTION:Dance Boulevard\nDance Boulevard\nzaterdag 27 september\nBERGE
+ N OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -634,21 +635,12 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kaz Hawkins
-DTSTART;VALUE=DATE:20250927
-UID:2dd1ce6bfc38f0061f0c6ec2203a963b@brabantsewal.ics
-DESCRIPTION:Kaz Hawkins\nKaz Hawkins\nzaterdag 27 september\nBERGEN OP ZOO
- M
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dance Boulevard
-DTSTART;VALUE=DATE:20250927
-UID:66e13c9d18edbb4c1c04dec737a9378b@brabantsewal.ics
-DESCRIPTION:Dance Boulevard\nDance Boulevard\nzaterdag 27 september\nBERGE
- N OP ZOOM
-LOCATION:BERGEN OP ZOOM
+SUMMARY:Jaarmarkt Kruisland
+DTSTART;VALUE=DATE:20250928
+UID:dae2164419ff5f07254a67df29e62de9@brabantsewal.ics
+DESCRIPTION:Jaarmarkt Kruisland\nJaarmarkt Kruisland\nzondag 28 september\
+ nKRUISLAND
+LOCATION:KRUISLAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -688,15 +680,6 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jaarmarkt Kruisland
-DTSTART;VALUE=DATE:20250928
-UID:dae2164419ff5f07254a67df29e62de9@brabantsewal.ics
-DESCRIPTION:Jaarmarkt Kruisland\nJaarmarkt Kruisland\nzondag 28 september\
- nKRUISLAND
-LOCATION:KRUISLAND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wild Romance
 DTSTART;VALUE=DATE:20251002
 UID:8fa2f57a5210d18e52ddbc5b4ee58999@brabantsewal.ics
@@ -733,20 +716,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jac en de Chocoladefabriek
-DTSTART;VALUE=DATE:20251004
-UID:4ac22b44682183e3121e920cce23e66a@brabantsewal.ics
-DESCRIPTION:Jac en de Chocoladefabriek\nJac en de Chocoladefabriek\nzaterd
- ag 4 oktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Archeologietour Verborgen Vesting
 DTSTART;VALUE=DATE:20251004
 UID:c46892fa48663552570bd98cc38142c9@brabantsewal.ics
 DESCRIPTION:Archeologietour Verborgen Vesting\nArcheologietour Verborgen V
  esting\n4 oktober\, 1 november en 13 december\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jac en de Chocoladefabriek
+DTSTART;VALUE=DATE:20251004
+UID:4ac22b44682183e3121e920cce23e66a@brabantsewal.ics
+DESCRIPTION:Jac en de Chocoladefabriek\nJac en de Chocoladefabriek\nzaterd
+ ag 4 oktober\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -768,19 +751,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Plankton
-DTSTART;VALUE=DATE:20251009
-UID:6d00d18b63a129c89abea2442dd210ed@brabantsewal.ics
-DESCRIPTION:Plankton\nPlankton\ndonderdag 9 oktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Comedy Tunes
 DTSTART;VALUE=DATE:20251009
 UID:060ad16dece2010afd34c238c97a7f55@brabantsewal.ics
 DESCRIPTION:Comedy Tunes\nComedy Tunes\ndonderdag 9 oktober\nBERGEN OP ZOO
  M
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Plankton
+DTSTART;VALUE=DATE:20251009
+UID:6d00d18b63a129c89abea2442dd210ed@brabantsewal.ics
+DESCRIPTION:Plankton\nPlankton\ndonderdag 9 oktober\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -802,6 +785,15 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ayoub Kharkach
+DTSTART;VALUE=DATE:20251011
+UID:56e55958e48ad22eb10cd146e4aeface@brabantsewal.ics
+DESCRIPTION:Ayoub Kharkach\nAyoub Kharkach\nzaterdag 11 oktober\nBERGEN OP
+  ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dierensporen zoeken in de Dintelse Gorzen
 DTSTART;VALUE=DATE:20251011
 UID:697de3f5beb89f16dad501d5a406acc3@brabantsewal.ics
@@ -811,12 +803,12 @@ LOCATION:DINTELOORD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ayoub Kharkach
-DTSTART;VALUE=DATE:20251011
-UID:56e55958e48ad22eb10cd146e4aeface@brabantsewal.ics
-DESCRIPTION:Ayoub Kharkach\nAyoub Kharkach\nzaterdag 11 oktober\nBERGEN OP
-  ZOOM
-LOCATION:BERGEN OP ZOOM
+SUMMARY:Gravel Challenge
+DTSTART;VALUE=DATE:20251012
+UID:58ad780ed10557f170b7c825c4309964@brabantsewal.ics
+DESCRIPTION:Gravel Challenge\nGravel Challenge\nzondag 12 oktober\nOSSENDR
+ ECHT
+LOCATION:OSSENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -835,15 +827,6 @@ UID:783f6a17dc946bad8c8037b5e966be79@brabantsewal.ics
 DESCRIPTION:Jaarmarkt Putte\nJaarmarkt Putte\n12 oktober\, 19 oktober\nPUT
  TE
 LOCATION:PUTTE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gravel Challenge
-DTSTART;VALUE=DATE:20251012
-UID:58ad780ed10557f170b7c825c4309964@brabantsewal.ics
-DESCRIPTION:Gravel Challenge\nGravel Challenge\nzondag 12 oktober\nOSSENDR
- ECHT
-LOCATION:OSSENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -916,20 +899,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Excursie Ravenhof en Moretusbos
-DTSTART;VALUE=DATE:20251019
-UID:9abeb044d4e6aa7781c7a600d1376e1b@brabantsewal.ics
-DESCRIPTION:Excursie Ravenhof en Moretusbos\nExcursie Ravenhof en Moretusb
- os\nzondag 19 oktober\nPUTTE
-LOCATION:PUTTE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nederlands Blazers Ensemble
 DTSTART;VALUE=DATE:20251019
 UID:28abb6dad3d794f25678ebe1f915a2a8@brabantsewal.ics
 DESCRIPTION:Nederlands Blazers Ensemble\nNederlands Blazers Ensemble\nzond
  ag 19 oktober\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kievitloop
+DTSTART;VALUE=DATE:20251019
+UID:0fe928334ea63cb5e16343e167b9aaf0@brabantsewal.ics
+DESCRIPTION:Kievitloop\nKievitloop\n19 oktober\, 16 november en 21 decembe
+ r\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -943,12 +926,12 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kievitloop
+SUMMARY:Excursie Ravenhof en Moretusbos
 DTSTART;VALUE=DATE:20251019
-UID:0fe928334ea63cb5e16343e167b9aaf0@brabantsewal.ics
-DESCRIPTION:Kievitloop\nKievitloop\n19 oktober\, 16 november en 21 decembe
- r\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
+UID:9abeb044d4e6aa7781c7a600d1376e1b@brabantsewal.ics
+DESCRIPTION:Excursie Ravenhof en Moretusbos\nExcursie Ravenhof en Moretusb
+ os\nzondag 19 oktober\nPUTTE
+LOCATION:PUTTE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -969,19 +952,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Wijncabaret
+DTSTART;VALUE=DATE:20251024
+UID:23b748a97b2d388723bcc581f3781349@brabantsewal.ics
+DESCRIPTION:Wijncabaret\nWijncabaret\nvrijdag 24 oktober\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tante Joke Karaoke Band
 DTSTART;VALUE=DATE:20251024
 UID:309de0ee1fc251500998752339a46634@brabantsewal.ics
 DESCRIPTION:Tante Joke Karaoke Band\nTante Joke Karaoke Band\nvrijdag 24 o
  ktober\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wijncabaret
-DTSTART;VALUE=DATE:20251024
-UID:23b748a97b2d388723bcc581f3781349@brabantsewal.ics
-DESCRIPTION:Wijncabaret\nWijncabaret\nvrijdag 24 oktober\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1039,19 +1022,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:De NEEhoorn
-DTSTART;VALUE=DATE:20251102
-UID:4b9b8b175487ea952bed77500a45d395@brabantsewal.ics
-DESCRIPTION:De NEEhoorn\nDe NEEhoorn\nzondag 2 november\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Landgoed Zoomland
 DTSTART;VALUE=DATE:20251102
 UID:a71b639dd2e26ad1c26434cf86fb93e4@brabantsewal.ics
 DESCRIPTION:Landgoed Zoomland\nLandgoed Zoomland\nzondag 2 november\nBERGE
  N OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:De NEEhoorn
+DTSTART;VALUE=DATE:20251102
+UID:4b9b8b175487ea952bed77500a45d395@brabantsewal.ics
+DESCRIPTION:De NEEhoorn\nDe NEEhoorn\nzondag 2 november\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1090,21 +1073,21 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lampionnenoptocht Sint Maarten Halsteren
-DTSTART;VALUE=DATE:20251111
-UID:c7897ed694e81f3858c82f700db012a3@brabantsewal.ics
-DESCRIPTION:Lampionnenoptocht Sint Maarten Halsteren\nLampionnenoptocht Si
- nt Maarten Halsteren\ndinsdag 11 november\nHALSTEREN
-LOCATION:HALSTEREN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ellefde van d'n Ellefde
 DTSTART;VALUE=DATE:20251111
 UID:7ccc8788d6cfe7019192f61bb5f749ae@brabantsewal.ics
 DESCRIPTION:Ellefde van d'n Ellefde\nEllefde van d'n Ellefde\ndinsdag 11 n
  ovember\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lampionnenoptocht Sint Maarten Halsteren
+DTSTART;VALUE=DATE:20251111
+UID:c7897ed694e81f3858c82f700db012a3@brabantsewal.ics
+DESCRIPTION:Lampionnenoptocht Sint Maarten Halsteren\nLampionnenoptocht Si
+ nt Maarten Halsteren\ndinsdag 11 november\nHALSTEREN
+LOCATION:HALSTEREN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1135,15 +1118,6 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Plastic Party!
-DTSTART;VALUE=DATE:20251114
-UID:8265ea7b55e8464faf17a890526d677f@brabantsewal.ics
-DESCRIPTION:Plastic Party!\nPlastic Party!\nvrijdag 14 november\nBERGEN OP
-  ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:De Toegift + Iskander Moon
 DTSTART;VALUE=DATE:20251114
 UID:1bd460d24cab8cc922ed7854b72a6130@brabantsewal.ics
@@ -1153,20 +1127,11 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Intocht Sinterklaas De Heen
-DTSTART;VALUE=DATE:20251115
-UID:5ad4f8ecc2efaf79cc6446e690833022@brabantsewal.ics
-DESCRIPTION:Intocht Sinterklaas De Heen\nIntocht Sinterklaas De Heen\nzate
- rdag 15 november\nDE HEEN
-LOCATION:DE HEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Intocht Sinterklaas Bergen op Zoom
-DTSTART;VALUE=DATE:20251115
-UID:6a0100131a1611ef79acb3103cbe077a@brabantsewal.ics
-DESCRIPTION:Intocht Sinterklaas Bergen op Zoom\nIntocht Sinterklaas Bergen
-  op Zoom\nzaterdag 15 november\nBERGEN OP ZOOM
+SUMMARY:Plastic Party!
+DTSTART;VALUE=DATE:20251114
+UID:8265ea7b55e8464faf17a890526d677f@brabantsewal.ics
+DESCRIPTION:Plastic Party!\nPlastic Party!\nvrijdag 14 november\nBERGEN OP
+  ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1180,12 +1145,66 @@ LOCATION:HOOGERHEIDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Intocht Sinterklaas Bergen op Zoom
+DTSTART;VALUE=DATE:20251115
+UID:6a0100131a1611ef79acb3103cbe077a@brabantsewal.ics
+DESCRIPTION:Intocht Sinterklaas Bergen op Zoom\nIntocht Sinterklaas Bergen
+  op Zoom\nzaterdag 15 november\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intocht Sinterklaas De Heen
+DTSTART;VALUE=DATE:20251115
+UID:5ad4f8ecc2efaf79cc6446e690833022@brabantsewal.ics
+DESCRIPTION:Intocht Sinterklaas De Heen\nIntocht Sinterklaas De Heen\nzate
+ rdag 15 november\nDE HEEN
+LOCATION:DE HEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intocht Sinterklaas Steenbergen
+DTSTART;VALUE=DATE:20251116
+UID:3eecf2de6772e87d40746220d8be9404@brabantsewal.ics
+DESCRIPTION:Intocht Sinterklaas Steenbergen\nIntocht Sinterklaas Steenberg
+ en\nzondag 16 november\nSTEENBERGEN NB
+LOCATION:STEENBERGEN NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sint's Muziekspektakel
 DTSTART;VALUE=DATE:20251116
 UID:b543328712e0fef14d154e8dbd6add9e@brabantsewal.ics
 DESCRIPTION:Sint's Muziekspektakel\nSint's Muziekspektakel\nzondag 16 nove
  mber\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intocht Sinterklaas Ossendrecht
+DTSTART;VALUE=DATE:20251116
+UID:13ba2fcea0951458950d1afcc85d1458@brabantsewal.ics
+DESCRIPTION:Intocht Sinterklaas Ossendrecht\nIntocht Sinterklaas Ossendrec
+ ht\nzondag 16 november\nOssendrecht
+LOCATION:Brabantse Wal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SANN!E & FR!ENDS
+DTSTART;VALUE=DATE:20251116
+UID:18669b5e675b20125f206ff23233a0e0@brabantsewal.ics
+DESCRIPTION:SANN!E & FR!ENDS\nSANN!E & FR!ENDS\nzondag 16 november\nBERGEN
+  OP ZOOM
+LOCATION:SANN!E & FR!ENDS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intocht Sinterklaas Nieuw-Vossemeer
+DTSTART;VALUE=DATE:20251116
+UID:79158151dca3500d0bb0a1979a562c36@brabantsewal.ics
+DESCRIPTION:Intocht Sinterklaas Nieuw-Vossemeer\nIntocht Sinterklaas Nieuw
+ -Vossemeer\nzondag 16 november\nNIEUW-VOSSEMEER
+LOCATION:NIEUW-VOSSEMEER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1216,42 +1235,6 @@ LOCATION:KRUISLAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SANN!E & FR!ENDS
-DTSTART;VALUE=DATE:20251116
-UID:18669b5e675b20125f206ff23233a0e0@brabantsewal.ics
-DESCRIPTION:SANN!E & FR!ENDS\nSANN!E & FR!ENDS\nzondag 16 november\nBERGEN
-  OP ZOOM
-LOCATION:SANN!E & FR!ENDS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Intocht Sinterklaas Steenbergen
-DTSTART;VALUE=DATE:20251116
-UID:3eecf2de6772e87d40746220d8be9404@brabantsewal.ics
-DESCRIPTION:Intocht Sinterklaas Steenbergen\nIntocht Sinterklaas Steenberg
- en\nzondag 16 november\nSTEENBERGEN NB
-LOCATION:STEENBERGEN NB
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Intocht Sinterklaas Nieuw-Vossemeer
-DTSTART;VALUE=DATE:20251116
-UID:79158151dca3500d0bb0a1979a562c36@brabantsewal.ics
-DESCRIPTION:Intocht Sinterklaas Nieuw-Vossemeer\nIntocht Sinterklaas Nieuw
- -Vossemeer\nzondag 16 november\nNIEUW-VOSSEMEER
-LOCATION:NIEUW-VOSSEMEER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Intocht Sinterklaas Ossendrecht
-DTSTART;VALUE=DATE:20251116
-UID:13ba2fcea0951458950d1afcc85d1458@brabantsewal.ics
-DESCRIPTION:Intocht Sinterklaas Ossendrecht\nIntocht Sinterklaas Ossendrec
- ht\nzondag 16 november\nOssendrecht
-LOCATION:Brabantse Wal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Abattoir Fermé
 DTSTART;VALUE=DATE:20251119
 UID:79526585e7378040b8df63859fd2bb65@brabantsewal.ics
@@ -1278,11 +1261,12 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urbanus
+SUMMARY:Concert bij Kaarslicht
 DTSTART;VALUE=DATE:20251122
-UID:8446bd6289ea24230d55ddae2824f3ce@brabantsewal.ics
-DESCRIPTION:Urbanus\nUrbanus\nzaterdag 22 november\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
+UID:8d6c1d69aff6352d4cd20f930c83cf1e@brabantsewal.ics
+DESCRIPTION:Concert bij Kaarslicht\nConcert bij Kaarslicht\nzaterdag 22 no
+ vember\nSTEENBERGEN
+LOCATION:STEENBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1295,12 +1279,11 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Concert bij Kaarslicht
+SUMMARY:Urbanus
 DTSTART;VALUE=DATE:20251122
-UID:8d6c1d69aff6352d4cd20f930c83cf1e@brabantsewal.ics
-DESCRIPTION:Concert bij Kaarslicht\nConcert bij Kaarslicht\nzaterdag 22 no
- vember\nSTEENBERGEN
-LOCATION:STEENBERGEN
+UID:8446bd6289ea24230d55ddae2824f3ce@brabantsewal.ics
+DESCRIPTION:Urbanus\nUrbanus\nzaterdag 22 november\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1339,19 +1322,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tim Hartog
+DTSTART;VALUE=DATE:20251127
+UID:a10b286c9d92a9a0aece3d68c0871136@brabantsewal.ics
+DESCRIPTION:Tim Hartog\nTim Hartog\ndonderdag 27 november\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The Elvis Concert met Dwight Icenhower
 DTSTART;VALUE=DATE:20251127
 UID:7aacee5fc14b0ba43c7db8c2603fc71e@brabantsewal.ics
 DESCRIPTION:The Elvis Concert met Dwight Icenhower\nThe Elvis Concert met 
  Dwight Icenhower\ndonderdag 27 november\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tim Hartog
-DTSTART;VALUE=DATE:20251127
-UID:a10b286c9d92a9a0aece3d68c0871136@brabantsewal.ics
-DESCRIPTION:Tim Hartog\nTim Hartog\ndonderdag 27 november\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1383,20 +1366,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Classic Hits In Concert
-DTSTART;VALUE=DATE:20251129
-UID:b5a780bfdf432115ddce3effff00a933@brabantsewal.ics
-DESCRIPTION:Classic Hits In Concert\nClassic Hits In Concert\nzaterdag 29 
- november\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wat moeten we met Maartje?
 DTSTART;VALUE=DATE:20251129
 UID:974fec9454364f03a22b44e0a2d18a29@brabantsewal.ics
 DESCRIPTION:Wat moeten we met Maartje?\nWat moeten we met Maartje?\nzaterd
  ag 29 november\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Classic Hits In Concert
+DTSTART;VALUE=DATE:20251129
+UID:b5a780bfdf432115ddce3effff00a933@brabantsewal.ics
+DESCRIPTION:Classic Hits In Concert\nClassic Hits In Concert\nzaterdag 29 
+ november\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1407,6 +1390,23 @@ UID:9bd201c712e9ccd7e5f43e46f238037a@brabantsewal.ics
 DESCRIPTION:IJsfestijn Steenbergen\nIJsfestijn Steenbergen\n29 november 20
  25 t/m 4 januari 2026\nSTEENBERGEN NB
 LOCATION:STEENBERGEN NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Surpriseloop
+DTSTART;VALUE=DATE:20251130
+UID:f38b4960785ef3e54b0dc5e6be3351e2@brabantsewal.ics
+DESCRIPTION:Surpriseloop\nSurpriseloop\nzondag 30 november\nHALSTEREN
+LOCATION:HALSTEREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Céline Janssen
+DTSTART;VALUE=DATE:20251130
+UID:88bfedd705ef372504b2019378da9813@brabantsewal.ics
+DESCRIPTION:Céline Janssen\nCéline Janssen\nzondag 30 november\nBERGEN O
+ P ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1425,23 +1425,6 @@ UID:8b85a327f24a8dece5fae37b8ab453b4@brabantsewal.ics
 DESCRIPTION:Sint Nicolaastocht\nSint Nicolaastocht\nzondag 30 november\nOS
  SENDRECHT
 LOCATION:OSSENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Surpriseloop
-DTSTART;VALUE=DATE:20251130
-UID:f38b4960785ef3e54b0dc5e6be3351e2@brabantsewal.ics
-DESCRIPTION:Surpriseloop\nSurpriseloop\nzondag 30 november\nHALSTEREN
-LOCATION:HALSTEREN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Céline Janssen
-DTSTART;VALUE=DATE:20251130
-UID:88bfedd705ef372504b2019378da9813@brabantsewal.ics
-DESCRIPTION:Céline Janssen\nCéline Janssen\nzondag 30 november\nBERGEN O
- P ZOOM
-LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1479,19 +1462,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kor Hoebe
+DTSTART;VALUE=DATE:20251206
+UID:8f6e91838daa990b5d3c3708b21b8cd6@brabantsewal.ics
+DESCRIPTION:Kor Hoebe\nKor Hoebe\nzaterdag 6 december\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Thijs Boontjes
 DTSTART;VALUE=DATE:20251206
 UID:dc294475919aff6dae016a6caa72842b@brabantsewal.ics
 DESCRIPTION:Thijs Boontjes\nThijs Boontjes\nzaterdag 6 december\nBERGEN OP
   ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kor Hoebe
-DTSTART;VALUE=DATE:20251206
-UID:8f6e91838daa990b5d3c3708b21b8cd6@brabantsewal.ics
-DESCRIPTION:Kor Hoebe\nKor Hoebe\nzaterdag 6 december\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1576,6 +1559,15 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Van Woensdrecht naar Bethlehem
+DTSTART;VALUE=DATE:20251220
+UID:d5fed0165d7a7040048a60e7f39d126f@brabantsewal.ics
+DESCRIPTION:Van Woensdrecht naar Bethlehem\nVan Woensdrecht naar Bethlehem
+ \nzaterdag 20 december\nWOENSDRECHT
+LOCATION:WOENSDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MY BABY
 DTSTART;VALUE=DATE:20251220
 UID:d091f29d823e34289937fdbef2bf01f8@brabantsewal.ics
@@ -1601,12 +1593,12 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Van Woensdrecht naar Bethlehem
-DTSTART;VALUE=DATE:20251220
-UID:d5fed0165d7a7040048a60e7f39d126f@brabantsewal.ics
-DESCRIPTION:Van Woensdrecht naar Bethlehem\nVan Woensdrecht naar Bethlehem
- \nzaterdag 20 december\nWOENSDRECHT
-LOCATION:WOENSDRECHT
+SUMMARY:Hotel vol Liefde
+DTSTART;VALUE=DATE:20251221
+UID:d493cf3eca375dff7ff09cd6fe983699@brabantsewal.ics
+DESCRIPTION:Hotel vol Liefde\nHotel vol Liefde\nzondag 21 december\nBERGEN
+  OP ZOOM
+LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1615,15 +1607,6 @@ DTSTART;VALUE=DATE:20251221
 UID:5acf4d67b7a781cc66d8914faeb32e70@brabantsewal.ics
 DESCRIPTION:Kerstbingo\nKerstbingo\nzondag 21 december\nBergen op Zoom
 LOCATION:Brabantse Wal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hotel vol Liefde
-DTSTART;VALUE=DATE:20251221
-UID:d493cf3eca375dff7ff09cd6fe983699@brabantsewal.ics
-DESCRIPTION:Hotel vol Liefde\nHotel vol Liefde\nzondag 21 december\nBERGEN
-  OP ZOOM
-LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1653,20 +1636,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vuile Huichelaar
-DTSTART;VALUE=DATE:20251227
-UID:5c186d68b78d81aea1c2b366e9d9b880@brabantsewal.ics
-DESCRIPTION:Vuile Huichelaar\nVuile Huichelaar\nzaterdag 27 december\nBERG
- EN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tim Knol Plays Tom Petty
 DTSTART;VALUE=DATE:20251227
 UID:40ab9bab65799fc981e3d69ca21007a6@brabantsewal.ics
 DESCRIPTION:Tim Knol Plays Tom Petty\nTim Knol Plays Tom Petty\nzaterdag 2
  7 december\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vuile Huichelaar
+DTSTART;VALUE=DATE:20251227
+UID:5c186d68b78d81aea1c2b366e9d9b880@brabantsewal.ics
+DESCRIPTION:Vuile Huichelaar\nVuile Huichelaar\nzaterdag 27 december\nBERG
+ EN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1733,20 +1716,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Welkom in de Middeleeuwen
-DTSTART;VALUE=DATE:20260108
-UID:974d3ce9607fec894ca804d3dbb6da6c@brabantsewal.ics
-DESCRIPTION:Welkom in de Middeleeuwen\nWelkom in de Middeleeuwen\ndonderda
- g 8 januari 2026\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Comedy Tunes
 DTSTART;VALUE=DATE:20260108
 UID:37c789567e9776ab983d8a8852472d2a@brabantsewal.ics
 DESCRIPTION:Comedy Tunes\nComedy Tunes\ndonderdag 8 januari 2026\nBERGEN O
  P ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welkom in de Middeleeuwen
+DTSTART;VALUE=DATE:20260108
+UID:974d3ce9607fec894ca804d3dbb6da6c@brabantsewal.ics
+DESCRIPTION:Welkom in de Middeleeuwen\nWelkom in de Middeleeuwen\ndonderda
+ g 8 januari 2026\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1971,15 +1954,6 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Victoria Koblenko en Zineb Fallouk
-DTSTART;VALUE=DATE:20260228
-UID:161aedb9704f1ad6f80c3556199c4b0b@brabantsewal.ics
-DESCRIPTION:Victoria Koblenko en Zineb Fallouk\nVictoria Koblenko en Zineb
-  Fallouk\nzaterdag 28 februari 2026\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Daredevils
 DTSTART;VALUE=DATE:20260228
 UID:7233dc14dce67125795eaaf6beb9a089@brabantsewal.ics
@@ -1989,11 +1963,11 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ons Pap wil bij de Revue
-DTSTART;VALUE=DATE:20260301
-UID:a77cde7dd96ae1a5a9aafb43d6af4fbd@brabantsewal.ics
-DESCRIPTION:Ons Pap wil bij de Revue\nOns Pap wil bij de Revue\nzondag 1 m
- aart 2026\nBERGEN OP ZOOM
+SUMMARY:Victoria Koblenko en Zineb Fallouk
+DTSTART;VALUE=DATE:20260228
+UID:161aedb9704f1ad6f80c3556199c4b0b@brabantsewal.ics
+DESCRIPTION:Victoria Koblenko en Zineb Fallouk\nVictoria Koblenko en Zineb
+  Fallouk\nzaterdag 28 februari 2026\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2002,6 +1976,15 @@ SUMMARY:Muk
 DTSTART;VALUE=DATE:20260301
 UID:4a74afb7355c861b0b162fe92966ac41@brabantsewal.ics
 DESCRIPTION:Muk\nMuk\nzondag 1 maart 2026\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ons Pap wil bij de Revue
+DTSTART;VALUE=DATE:20260301
+UID:a77cde7dd96ae1a5a9aafb43d6af4fbd@brabantsewal.ics
+DESCRIPTION:Ons Pap wil bij de Revue\nOns Pap wil bij de Revue\nzondag 1 m
+ aart 2026\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2226,19 +2209,19 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Misiconi
-DTSTART;VALUE=DATE:20260416
-UID:1f2e00c1e68154e47fa5e871136bd23a@brabantsewal.ics
-DESCRIPTION:Misiconi\nMisiconi\ndonderdag 16 april 2026\nBERGEN OP ZOOM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Comedy Tunes
 DTSTART;VALUE=DATE:20260416
 UID:d250ed7ef8667c5a3f55ece970ab3cfd@brabantsewal.ics
 DESCRIPTION:Comedy Tunes\nComedy Tunes\ndonderdag 16 april 2026\nBERGEN OP
   ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Misiconi
+DTSTART;VALUE=DATE:20260416
+UID:1f2e00c1e68154e47fa5e871136bd23a@brabantsewal.ics
+DESCRIPTION:Misiconi\nMisiconi\ndonderdag 16 april 2026\nBERGEN OP ZOOM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2420,20 +2403,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jay Francis
-DTSTART;VALUE=DATE:20260604
-UID:eb78dda2c03b70596b5a49912121a28f@brabantsewal.ics
-DESCRIPTION:Jay Francis\nJay Francis\ndonderdag 4 juni 2026\nBERGEN OP ZOO
- M
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Comedy Tunes
 DTSTART;VALUE=DATE:20260604
 UID:077d684e616dd140dad5693ebcd53163@brabantsewal.ics
 DESCRIPTION:Comedy Tunes\nComedy Tunes\ndonderdag 4 juni 2026\nBERGEN OP Z
  OOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jay Francis
+DTSTART;VALUE=DATE:20260604
+UID:eb78dda2c03b70596b5a49912121a28f@brabantsewal.ics
+DESCRIPTION:Jay Francis\nJay Francis\ndonderdag 4 juni 2026\nBERGEN OP ZOO
+ M
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2446,20 +2429,20 @@ LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hotel Modern
-DTSTART;VALUE=DATE:20260606
-UID:e578cdb7314d169bce269736fa67cf43@brabantsewal.ics
-DESCRIPTION:Hotel Modern\nHotel Modern\nzaterdag 6 juni 2026\nBERGEN OP ZO
- OM
-LOCATION:BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rootsriders & Mo Ali
 DTSTART;VALUE=DATE:20260606
 UID:ef815387ba0810686df0f08dfacfad09@brabantsewal.ics
 DESCRIPTION:Rootsriders & Mo Ali\nRootsriders & Mo Ali\nzaterdag 6 juni 20
  26\nBERGEN OP ZOOM
+LOCATION:BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hotel Modern
+DTSTART;VALUE=DATE:20260606
+UID:e578cdb7314d169bce269736fa67cf43@brabantsewal.ics
+DESCRIPTION:Hotel Modern\nHotel Modern\nzaterdag 6 juni 2026\nBERGEN OP ZO
+ OM
 LOCATION:BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
